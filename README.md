@@ -1,1 +1,1 @@
-# This repo presents my solution to some LeetCode challenges written in Python!
+# This repo presents my solutions to some LeetCode challenges written in Python!
