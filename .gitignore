@@ -1,0 +1,13 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+# Python
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.nbgrader.log
+
+
