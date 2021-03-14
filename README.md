@@ -3,11 +3,16 @@
 ## Hope you like it!
 ## Reference: https://leetcode.com/amirhessam/
 
+## Array Problems
 
-| Syntax      | Description | Test Text     |
-| :---:       |    :----:   |         :---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Problem      | Difficulty | View My Solution     | View on Leetcode |
+| :---:       |    :----:   |         :---: | :---: |
+| Header      | Title       | Here's this   | fdfd |
+| Paragraph   | Text        | And more      |fdfd |
+
+## String Problems
+
+
 
 
 ```python
