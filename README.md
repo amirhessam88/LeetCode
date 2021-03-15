@@ -8,7 +8,7 @@
 </h1>
 
 
-## Array Problems
+## Subarray Problems
 
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
