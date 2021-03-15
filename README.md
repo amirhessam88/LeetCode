@@ -14,16 +14,7 @@
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
 | LC#53  | Maximum Subarray       | Easy     | [Link](./problems/LC53.md)   | [Link](https://leetcode.com/problems/maximum-subarray/) |
 | LC#560  | Subarray Sum Equals K | Medium     | [Link](./problems/LC560.md)   | [Link](https://leetcode.com/problems/subarray-sum-equals-k/) |
-
-
-## String Problems
-
-
-| Problem      | Difficulty | View My Solution     | View on Leetcode |
-| :---:       |    :----:   |         :---: | :---: |
-| Header      | Title       | Here's this   | fdfd |
-| Paragraph   | Text        | And more      |fdfd |
-
+| LC#974  | Subarray Sums Divisible by K | Medium     | [Link](./problems/LC974.md)   | [Link](https://leetcode.com/problems/subarray-sums-divisible-by-k/) |
 
 
 ## Reference: https://leetcode.com/amirhessam/
