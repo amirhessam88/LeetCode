@@ -1,7 +1,12 @@
-# This repo presents my solutions to some LeetCode challenges written in Python and SQL!
+<p align="center">
+<a href="https://www.github.com/amirhessam88/LeetCode/">
+  <img src="https://raw.githubusercontent.com/amirhessam88/LeetCode/master/assets/header.png" width="400"></img></a>
+</p>
 
-## Hope you like it!
-## Reference: https://leetcode.com/amirhessam/
+<h1 align="center">
+    Leetcode Solutions in Python
+</h1>
+
 
 ## Array Problems
 
@@ -13,25 +18,15 @@
 ## String Problems
 
 
+| Problem      | Difficulty | View My Solution     | View on Leetcode |
+| :---:       |    :----:   |         :---: | :---: |
+| Header      | Title       | Here's this   | fdfd |
+| Paragraph   | Text        | And more      |fdfd |
 
 
-```python
-class Solution(object):
-    def intToRoman(self, num):
-        """
-        :type num: int
-        :rtype: str
-        """
-        dct = {1: 'I', 4: 'IV', 5: 'V', 9: 'IX', 10: 'X', 40: 'XL', 50: 'L', 90: 'XC', 100: 'C', 400: 'CD', 500: 'D', 900: 'CM', 1000: 'M'}
-        stack = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000]
-        ans = []
-        while num > 0:
-            if stack[-1] > num:
-                stack.pop()
-            else:
-                num -= stack[-1]
-                ans.append(dct[stack[-1]])
-        return "".join(map(str, ans))      
 
-```
+## Reference: https://leetcode.com/amirhessam/
 
+## Support me by Buying Me a Coffee
+
+<a href="https://www.buymeacoffee.com/amirhessam"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=amirhessam&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
