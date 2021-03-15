@@ -12,7 +12,7 @@
 
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
-| LC#102 | Max Subarray       | Medium     | [Link](./problems/template.md)   | [Link](https://leetcode.com/problems/container-with-most-water/) |
+| LC#53  | Maximum Subarray       | Easy     | [Link](./problems/LC#53.md)   | [Link](https://leetcode.com/problems/maximum-subarray/) |
 
 ## String Problems
 
