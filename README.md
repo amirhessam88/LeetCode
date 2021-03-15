@@ -10,10 +10,10 @@
 
 ## Array Problems
 
-| Problem      | Difficulty | View My Solution     | View on Leetcode |
-| :---:       |    :----:   |         :---: | :---: |
-| Header      | Title       | Here's this   | fdfd |
-| Paragraph   | Text        | And more      |fdfd |
+| Index | Problem      | Difficulty | View My Solution     | View on Leetcode |
+| :---: | :---:       |    :----:   |         :---: | :---: |
+| LC#102 | Header      | Title       | Here's this   | fdfd |
+| fdfd | Paragraph   | Text        | And more      |fdfd |
 
 ## String Problems
 
