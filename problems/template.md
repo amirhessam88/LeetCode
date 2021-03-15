@@ -1,57 +1,72 @@
-## Problem: Max Subarray
+## Problem: Subarray Sum Equals K
 
 ## Difficulty: Medium
 
 ## Description:
-Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
-
+Given an array of integers `nums` and an integer `k`, return the total number of continuous subarrays whose sum equals to `k`.
 ## Examples:
 ```
-Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
-Output: 6
-Explanation: [4,-1,2,1] has the largest sum = 6.
+Input: nums = [1,1,1], k = 2
+Output: 2
 ```
 
 ```
-Input: nums = [5,4,-1,7,8]
-Output: 23
+Input: nums = [1,2,3], k = 3
+Output: 2
+```
+## Constraints:
+```
+1 <= nums.length <= 2 * 104
+-1000 <= nums[i] <= 1000
+-107 <= k <= 107
 ```
 
 ## Solutions: 
-For the naive appraoch is always to produce all the subarrays and find the one that meets the objective. This approach has a time complexity of `$O(N^3)$` and space complexity of `$O(N^2)$` where `$N$` is the size of array.
+For the naive appraoch is always to produce all the subarrays and find the one that meets the objective. This approach has a time complexity of `O(N^3)` and space complexity of `O(N)` where `N` is the size of array.
 
 ```python
-def maxSubArray(nums):
+def subarraySum(nums, k):
     """
     :type nums: List[int]
+    :type k: int
     :rtype: int
     :Time Complexity: O(N^3)
-    :Space Complexity: O(N^2)
+    :Space Complexity: O(N)
     """
-    sums = []
+    ans = 0
     for i in range(len(nums)):
         for j in range(i, len(nums)):
             sub = nums[i : j + 1]
-            sums.append(sum(sub))
+            if sum(sub) == k:
+                ans += 1
 
-    return max(sums)
+    return ans
 ```
 
-For the optimal solution, we can use the Kadane's algorithm. 
+For the optimal solution, we can use the `defaultdict` data structure. This approach has a time complexity of `O(N)` and space complexity of `O(N+K)` where `N` is the size of array.
+ 
 ```python
-def maxSubArray(nums):
+def subarraySum(self, nums, k):
     """
     :type nums: List[int]
+    :type k: int
     :rtype: int
     :Time Complexity: O(N)
-    :Space Complexity: O(1)
+    :Space Complexity: O(N+K)
     """
-    current_max = global_max = nums[0]
+    from collections import defaultdict
 
-    for i in range(1, len(nums)):
-        current_max = max(current_max + nums[i], nums[i])
-        global_max = max(current_max, global_max)
+    seen = defaultdict(int)
+    current_sum = 0
+    ans = 0
 
-    return global_max
+    for num in nums:
+        current_sum += num
+        ans += seen[current_sum - k]
+        seen[current_sum] += 1
+
+    ans += seen[k]
+
+    return ans
 ```
 
