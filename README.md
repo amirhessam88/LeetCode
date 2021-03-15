@@ -10,10 +10,9 @@
 
 ## Array Problems
 
-| Index | Problem      | Difficulty | View My Solution     | View on Leetcode |
-| :---: | :---:       |    :----:   |         :---: | :---: |
-| LC#102 | Header      | Title       | Here's this   | fdfd |
-| fdfd | Paragraph   | Text        | And more      |fdfd |
+| Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
+| :---:  | :---:              |   :----:   |         :---:                    | :---: |
+| LC#102 | Max Subarray       | Medium     | [Link](./problems/template.md)   | [Link](https://leetcode.com/problems/container-with-most-water/) |
 
 ## String Problems
 
