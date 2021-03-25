@@ -1,78 +1,72 @@
-## Problem: Contiguous Array
+## Problem: Subarray Sums Divisible by K
 
 ## Difficulty: Medium
 
 ## Description:
-Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+Given an array `A` of integers, return the number of (contiguous, non-empty) subarrays that have a sum divisible by `K`.
 
 ## Examples:
 ```
-Input: [0,1]
-Output: 2
-Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
+Input: A = [4,5,0,-2,-3,1], K = 5
+Output: 7
+Explanation: There are 7 subarrays with a sum divisible by K = 5:
+[4, 5, 0, -2, -3, 1], [5], [5, 0], [5, 0, -2, -3], [0], [0, -2, -3], [-2, -3]
 ```
 
-```
-Input: [0,1,0]
-Output: 2
-Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
-```
 ## Constraints:
 ```
-The length of the given binary array will not exceed 50,000.
+1 <= A.length <= 30000
+-10000 <= A[i] <= 10000
+2 <= K <= 10000
 ```
 
 ## Solutions: 
-For the naive appraoch is always to produce all the subarrays and find the one that meets the objective. This approach has a time complexity of `O(N^3)` and space complexity of `O(N)` where `N` is the size of array.
+The naive appraoch is always to produce all of the subarrays and find the one that meets the objective. This approach has a time complexity of `O(N^3)` and space complexity of `O(N)` where `N` is the size of array.
 
 ```python
-def findMaxLength(nums):
+def subarraysDivByK(A, K):
     """
-    :type nums: List[int]
+    :type A: List[int]
+    :type K: int
     :rtype: int
     :Time Complexity: O(N^3)
     :Space Complexity: O(N)
     """
-    maxLen = 0
+    ans = 0
 
-    for i in range(len(nums)):
-        for j in range(i, len(nums)):
-            sub = nums[i : j + 1]
-            if len(sub) == 2 * sum(sub):
-                maxLen = max(maxLen, len(sub))
-
-    return maxLen
-
+    for i in range(len(A)):
+        for j in range(i, len(A)):
+            sub = A[i : j + 1]
+            if sum(sub) % K == 0:
+                ans += 1
+    return ans
 ```
 
-For the optimal solution, we can instead solve the maximum subarray problem with the given sum of `0`. In this case, we need to update the `0` in `nums` with `-1`. To do this, we can use the Prefix-Sum algorithm. This approach has a time complexity of `O(N)` and space complexity of `O(N)` where `N` is the size of array.
-
+For the optimal solution, we can use the Prefix-Sum algorithm. This approach has a time complexity of `O(N)` and space complexity of `O(N)` where `N` is the size of array.
  
 ```python
-def findMaxLength(nums):
+def subarraysDivByK(A, K):
     """
-    :type nums: List[int]
+    :type A: List[int]
+    :type K: int
     :rtype: int
     :Time Complexity: O(N)
-    :Space Complexity: O(1)
+    :Space Complexity: O(N)
     """
-    for i in range(len(nums)):
-        if nums[i] == 0:
-            nums[i] = -1
-
+    ans = 0
+    seen = {0: 1}
     current_sum = 0
-    maxLen = 0
-    seen = {0: -1}
 
-    for i in range(len(nums)):
-        current_sum += nums[i]
+    for i in range(len(A)):
+        current_sum += A[i]
+        key = current_sum % K
 
-        if current_sum not in seen:
-            seen[current_sum] = i
+        if key in seen:
+            ans += seen[key]
+            seen[key] += 1
+        else:
+            seen[key] = 1
 
-        maxLen = max(maxLen, i - seen[current_sum])
-
-    return maxLen
-
+    return ans
 ```
 
