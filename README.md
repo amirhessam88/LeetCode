@@ -19,6 +19,16 @@
 | LC#560  | Subarray Sum Equals K | Medium     | [Link](./problems/LC560.md)   | [Link](https://leetcode.com/problems/subarray-sum-equals-k/) |
 | LC#974  | Subarray Sums Divisible by K | Medium     | [Link](./problems/LC974.md)   | [Link](https://leetcode.com/problems/subarray-sums-divisible-by-k/) |
 
+## Dynamic Programming Problems
+
+| Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
+| :---:  | :---:              |   :----:   |         :---:                    | :---: |
+| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
+
+
 
 ## Reference: https://leetcode.com/amirhessam/
 
