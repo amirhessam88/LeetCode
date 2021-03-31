@@ -24,9 +24,7 @@
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
 | LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
-| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
-| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
-| LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| LC#746  | Min Cost Climbing Stairs       | Easy     | [Link](./problems/LC746.md)   | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) |
 
 
 
