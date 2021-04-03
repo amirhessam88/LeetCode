@@ -34,6 +34,14 @@
 
 ## Reference: https://leetcode.com/amirhessam/
 
+## Book: Elements of Programming Interviews in Python
+<img src="https://github.com/amirhessam88/LeetCode/master/assets/cover.png" width="800" height="600"/>
+
+
+#### To support the authors of the book, you can buy the book from Amazon using this [Link](https://www.amazon.com/dp/1537713949/ref=cm_sw_em_r_mt_dp_GjjSFb9FBRXE2). I have also provided you with the [PDF](https://www.amirhessam.com/assets/pdf/projects/Elements_of_Programming_Interviews_in_Python.pdf) version of the book for those who cannot have the hard copy version of the book.
+
+#### As always, pull requests are welcome!
+
 ## Support me by Buying Me a Coffee
 
 <a href="https://www.buymeacoffee.com/amirhessam"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=amirhessam&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
