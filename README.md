@@ -35,7 +35,7 @@
 ## Reference: https://leetcode.com/amirhessam/
 
 ## Book: Elements of Programming Interviews in Python
-<img src="https://github.com/amirhessam88/LeetCode/master/assets/cover.png" width="800" height="600"/>
+<img src="https://raw.githubusercontent.com/amirhessam88/LeetCode/master/assets/cover.png" width="800" height="600"/>
 
 
 #### To support the authors of the book, you can buy the book from Amazon using this [Link](https://www.amazon.com/dp/1537713949/ref=cm_sw_em_r_mt_dp_GjjSFb9FBRXE2). I have also provided you with the [PDF](https://www.amirhessam.com/assets/pdf/projects/Elements_of_Programming_Interviews_in_Python.pdf) version of the book for those who cannot have the hard copy version of the book.
