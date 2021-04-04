@@ -35,6 +35,7 @@
 
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
+| LC#30  | Valid Parentheses    | Easy    | [Link](./problems/LC30.md)   | [Link](https://leetcode.com/problems/valid-parentheses/) |
 | LC#32  | Longest Valid Parentheses    | Hard     | [Link](./problems/LC32.md)   | [Link](https://leetcode.com/problems/longest-valid-parentheses/) |
 
 ## Reference: https://leetcode.com/amirhessam/
