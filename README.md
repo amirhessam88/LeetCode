@@ -32,7 +32,7 @@
 
 
 ## Stack Problems
-|
+
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
 | LC#32  | Longest Valid Parentheses    | Hard     | [Link](./problems/LC32.md)   | [Link](https://leetcode.com/problems/longest-valid-parentheses/) |
