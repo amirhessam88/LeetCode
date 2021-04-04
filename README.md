@@ -13,7 +13,6 @@
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
 | LC#844  |  Backspace String Compare     | Easy     | [Link](./problems/LC844.md)   | [Link](https://leetcode.com/problems/backspace-string-compare/) |
-|
 
 ## Subarray Problems
 
@@ -32,6 +31,7 @@
 | :---:  | :---:              |   :----:   |         :---:                    | :---: |
 | LC#39  | Combination Sum    | Medium     | [Link](./problems/LC39.md)   | [Link](https://leetcode.com/problems/combination-sum/) |
 | LC#40  | Combination Sum II    | Medium     | [Link](./problems/LC40.md)   | [Link](https://leetcode.com/problems/combination-sum-ii/) |
+| LC#55  | Jump Game   | Medium     | [Link](./problems/LC55.md)   | [Link](https://leetcode.com/problems/jump-game/) |
 | LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
 | LC#216  | Combination Sum III      | Medium    | [Link](./problems/LC216.md)   | [Link](https://leetcode.com/problems/combination-sum-iii/) |
 | LC#377  | Combination Sum IV      | Medium    | [Link](./problems/LC377.md)   | [Link](https://leetcode.com/problems/combination-sum-iv/) |
