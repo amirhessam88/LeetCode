@@ -31,6 +31,8 @@
 | LC#746  | Min Cost Climbing Stairs       | Easy     | [Link](./problems/LC746.md)   | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) |
 
 
+## Stack Problems
+| LC#32  | Longest Valid Parentheses    | Hard     | [Link](./problems/LC32.md)   | [Link](https://leetcode.com/problems/longest-valid-parentheses/) |
 
 ## Reference: https://leetcode.com/amirhessam/
 
