@@ -8,6 +8,13 @@
 </h1>
 
 
+## String Problems
+
+| Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
+| :---:  | :---:              |   :----:   |         :---:                    | :---: |
+| LC#844  |  Backspace String Compare     | Easy     | [Link](./problems/LC844.md)   | [Link](https://leetcode.com/problems/backspace-string-compare/) |
+|
+
 ## Subarray Problems
 
 | Index  | Problem            | Difficulty | View My Solution                 | View on Leetcode |
