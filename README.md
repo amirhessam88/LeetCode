@@ -33,6 +33,7 @@
 | LC#40  | Combination Sum II    | Medium     | [Link](./problems/LC40.md)   | [Link](https://leetcode.com/problems/combination-sum-ii/) |
 | LC#55  | Jump Game   | Medium     | [Link](./problems/LC55.md)   | [Link](https://leetcode.com/problems/jump-game/) |
 | LC#70  | Climbing Stairs       | Easy     | [Link](./problems/LC70.md)   | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| LC#121  | Best Time to Buy and Sell Stock      | Easy     | [Link](./problems/LC121.md)   | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
 | LC#216  | Combination Sum III      | Medium    | [Link](./problems/LC216.md)   | [Link](https://leetcode.com/problems/combination-sum-iii/) |
 | LC#377  | Combination Sum IV      | Medium    | [Link](./problems/LC377.md)   | [Link](https://leetcode.com/problems/combination-sum-iv/) |
 | LC#474  | Ones and Zeros    | Medium     | [Link](./problems/LC474.md)   | [Link](https://leetcode.com/problems/ones-and-zeroes/) |
